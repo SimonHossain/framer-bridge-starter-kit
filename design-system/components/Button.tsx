@@ -37,7 +37,7 @@ export const Button: React.FC<Props> = ({
 // Styles
 const StyledButton = styled.button`
   background: ${theme.color.paneBg};
-  border-radius: 6px;
+  border-radius: 15px;
   border: none;
   box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
   color: ${theme.color.body};
